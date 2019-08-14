@@ -109,6 +109,17 @@
   transition: all 1.5s ease-in;
   z-index: 2;
 }
+
+.home-footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 85px;
+  background: linear-gradient(transparent,#0C192A);
+  transition: all 1.5s ease-in;
+  z-index: 2;
+}
   
  @-webkit-keyframes flicker-in-1 {
   0% {
