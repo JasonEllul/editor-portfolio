@@ -12,7 +12,7 @@ import logoVideo from '../media/output.mov';
 import '../css/Homepage.css';
 
 
-const headerStyle = { width: '190px', WebkitFilter: 'none', transform: 'none', top: 10, left: 20, }
+const headerStyle = { width: '190px', transform: 'none', top: 10, left: 20, filter: 'drop-shadow(0 0 1.5rem #4895ff)' }
 
 class Homepage extends Component {
 

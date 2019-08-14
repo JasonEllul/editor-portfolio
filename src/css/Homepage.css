@@ -1,9 +1,4 @@
 
-:root {
-  /* Set neon color */
-  --neon-text-color: #4895ff;
-}
-
 .title {
   font-family: 'Graduate', cursive;
   font-size: 6.5rem;
@@ -19,7 +14,7 @@
 
 .logo {
   object-fit: cover;
-  -webkit-filter: drop-shadow(0 0 8rem var(--neon-text-color));
+  filter: drop-shadow(0 0 8rem #4895ff);
   animation: flicker-in-1 1.5s linear both;
   position: absolute;
   left: 50%;
@@ -64,14 +59,14 @@
 
 .socials-title {
   font-family: 'Norwester', sans-serif;
-  font-size: 1.75em;
+  font-size: 1.82em;
   font-weight: 800;
   letter-spacing: 0.02em;
-  background: linear-gradient(270deg, #12c2e9, #c471ed,#f64f59, #F2994A, #F2C94C, #ffffff);
+  background: linear-gradient(270deg, #12c2e9, #c471ed,#f64f59, #F2994A, #F2C94C);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animate-gradient 8s ease infinite;
+  animation: animate-gradient 12s ease infinite;
 
 }
 
@@ -98,6 +93,7 @@
 .socials-text {
   font-family: 'Norwester', sans-serif;
   letter-spacing: 0.02em;
+  font-size: 1.2em;
 }
 
 .header-wrapper {
