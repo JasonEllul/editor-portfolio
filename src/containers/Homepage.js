@@ -40,7 +40,7 @@ class Homepage extends Component {
         <div className='header-wrapper' style={{ opacity: flickered ? 1 : 0 }}>
 
         </div>
-        <div className='home-footer-wrapper' style={{ opacity: flickered ? 1 : 0 }} />
+        <div className='home-footer-wrapper' style={{ opacity: flickered ? 0.8 : 0 }} />
         <div className='socials-wrapper' style={{ opacity: flickered ? 1 : 0 }}>
           <p className='socials-title'>glowing animations and edits</p>
           <div className='socials-row'>
