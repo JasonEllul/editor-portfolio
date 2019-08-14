@@ -67,7 +67,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate-gradient 12s ease infinite;
-  filter: drop-shadow(0 0 2rem #4895ff);
+  filter: drop-shadow(0 0 2.5rem #4895ff);
 
 }
 
@@ -89,14 +89,14 @@
   width: 26px;
   margin-right: 8px;
   display: inline-block;
-  filter: drop-shadow(0 0 2rem #4895ff);
+  filter: drop-shadow(0 0 2.5rem #4895ff);
 }
 
 .socials-text {
   font-family: 'Norwester', sans-serif;
   letter-spacing: 0.02em;
   font-size: 1.2em;
-  filter: drop-shadow(0 0 2rem #4895ff);
+  filter: drop-shadow(0 0 2.5rem #4895ff);
 }
 
 .header-wrapper {
