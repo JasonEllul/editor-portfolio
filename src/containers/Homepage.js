@@ -22,10 +22,14 @@ class Homepage extends Component {
   }
 
   componentDidMount() {
+
+  }
+
+  animateIn() {
     setTimeout(() => {
       this.setState({ flickered: true });
 
-    }, 2000);
+    }, 1000);
   }
 
   render() {
@@ -33,7 +37,7 @@ class Homepage extends Component {
     return (
       <div className='page-wrapper'>
         <div className='video-bg' style={{ opacity: flickered ? 0.8 : 0 }}>
-          <video muted autoPlay loop>
+          <video muted autoPlay playsInline loop onLoadedData={() => this.animateIn()}>
             <source src={tecca} type="video/mp4" />
           </video>
         </div>
@@ -42,9 +46,9 @@ class Homepage extends Component {
         </div>
         <div className='home-footer-wrapper' style={{ opacity: flickered ? 0.8 : 0 }} />
         <div className='socials-wrapper' style={{ opacity: flickered ? 1 : 0 }}>
-          <p className='socials-title'>glowing edits and animations</p>
+          <p className='socials-title'>GLOWING EDITS AND ANIMATIONS</p>
           <div className='socials-row'>
-            <img className='socials-icon' src={ig} /><p className='socials-text'>highlightonhighlights</p>
+            <img className='socials-icon' src={ig} /><p className='socials-text'>HIGHLIGHTONHIGHLIGHTS</p>
           </div>
           <div className='socials-row'>
             <img className='socials-icon' src={twitter} /><p className='socials-text'>HLonHLs</p>

@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './media/logo.PNG';
+
+import InstagramEmbed from 'react-instagram-embed';
+
 import './App.css';
 
 import Homepage from './containers/Homepage';
@@ -8,6 +10,18 @@ function App() {
   return (
     <div className="App">
       <Homepage />
+        {/* <InstagramEmbed
+          url='https://instagr.am/p/BzZkd3BlDnM/'
+          maxWidth={320}
+          hideCaption={false}
+          containerTagName='div'
+          protocol=''
+          injectScript
+          onLoading={() => { }}
+          onSuccess={() => { }}
+          onAfterRender={() => { }}
+          onFailure={() => { }}
+        /> */}
     </div>
   );
 }
