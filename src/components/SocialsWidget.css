@@ -1,0 +1,30 @@
+.widget-wrapper {
+  position: fixed;
+  left: -1px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: #fff;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 0px 3px 3px 0;
+  color: #000;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.widget-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(219,219,219);
+}
+
+.widget-icon {
+  display: block;
+  width: 2vw;
+  padding: 0.8vw;
+  object-fit: contain;
+  object-position: center;
+}

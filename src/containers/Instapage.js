@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import InstagramEmbed from 'react-instagram-embed';
 
+import SocialsWidget from '../components/SocialsWidget';
+
 import './Instapage.css';
 
 class Instapage extends Component {
@@ -21,6 +23,7 @@ class Instapage extends Component {
   render() {
     return (
       <div className='instapage-wrapper' style={{ backgroundColor: '#fafafa' }}>
+        <SocialsWidget />
         <div className='instapage-showcase-wrapper'>
           <h1 className='instapage-title'>RECENT FOOTBALL EDITS</h1>
           <div className='instapage-showcase'>
@@ -43,13 +46,6 @@ class Instapage extends Component {
                 url='https://instagr.am/p/BzZkd3BlDnM/'
                 maxWidth={320}
                 hideCaption={false}
-                containerTagName='div'
-                protocol=''
-                injectScript
-                onLoading={() => { }}
-                onSuccess={() => { }}
-                onAfterRender={() => { }}
-                onFailure={() => { }}
               />
             </div>
             <div className='embed-wrapper'>
@@ -57,13 +53,6 @@ class Instapage extends Component {
                 url='https://www.instagram.com/p/B0rwmBRgvjI/'
                 maxWidth={320}
                 hideCaption={false}
-                containerTagName='div'
-                protocol=''
-                injectScript
-                onLoading={() => { }}
-                onSuccess={() => { }}
-                onAfterRender={() => { }}
-                onFailure={() => { }}
               />
             </div>
             <div className='embed-wrapper'>
@@ -71,13 +60,6 @@ class Instapage extends Component {
                 url='https://www.instagram.com/p/B0TkaAaBLj4/'
                 maxWidth={320}
                 hideCaption={false}
-                containerTagName='div'
-                protocol=''
-                injectScript
-                onLoading={() => { }}
-                onSuccess={() => { }}
-                onAfterRender={() => { }}
-                onFailure={() => { }}
               />
             </div>
           </div>
