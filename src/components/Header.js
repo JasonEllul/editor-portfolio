@@ -5,9 +5,7 @@ import logo from '../media/newlogo.png';
 import './Header.css';
 import '../fonts/inter.css';
 
-const headerStyle = { width: '190px', transform: 'none', top: 10, left: 20, filter: 'drop-shadow(0 0 2.5rem #4895ff)' }
-
-class Homepage extends Component {
+class Header extends Component {
 
   constructor(props) {
     super(props);
@@ -44,7 +42,11 @@ class Homepage extends Component {
     const { scroll } = this.state;
     const { logoHidden } = this.props
     return (
-      <div className='navbar-wrapper' style={{ opacity: logoHidden ? 1 : 0, background: scroll ? '#0C192A' : 'linear-gradient(#0C192A, transparent)' }}>
+      <div className='navbar-wrapper' style={{
+        opacity: logoHidden ? 1 : 0,
+        background: scroll ? '#0C192A' : 'linear-gradient(#0C192A, transparent)',
+        boxShadow: scroll ? '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' : 'none'
+      }}>
         <img className='navbar-brand' src={logo} />
         <div className='navbar-list'>
           <div className='navbar-item'>
@@ -62,4 +64,4 @@ class Homepage extends Component {
   }
 }
 
-export default Homepage;
+export default Header;

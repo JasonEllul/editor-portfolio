@@ -12,7 +12,6 @@ import tecca from '../media/tecca.mov';
 import logoVideo from '../media/output.mov';
 
 import './Homepage.css';
-import '../fonts/inter.css';
 
 const headerStyle = { width: '190px', transform: 'none', top: 10, left: 20, filter: 'drop-shadow(0 0 2.5rem #4895ff)' }
 
@@ -41,8 +40,7 @@ class Homepage extends Component {
   render() {
     const { flickered, logoHidden } = this.state;
     return (
-      <div className='page-wrapper'>
-
+      <div className='homepage-wrapper'>
         {/* Becomes a part of navbar after animation */}
         {/* <img className='logo' src={logo} style={flickered ? headerStyle : null} /> */}
 

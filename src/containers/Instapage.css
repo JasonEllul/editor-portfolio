@@ -1,0 +1,43 @@
+.instapage-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  color: #000;
+}
+
+.instapage-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.92em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.instapage-row {
+  display: flex;
+  flex-direction: row;
+  margin: 26px;
+  text-align: left;
+}
+
+.instapage-row-text-wrapper {
+  max-width: 520px;
+  padding: 0 3vw;
+}
+
+.instapage-row-title {
+  font-family: 'inter', sans-serif;
+  font-size: 1.92em;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+  color: #4c4d4c;
+}
+
+.instapage-row-text {
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+}

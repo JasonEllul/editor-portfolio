@@ -11,7 +11,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .navbar-list {  
@@ -25,11 +25,9 @@
   font-weight: 700;
   letter-spacing: 0.02em;
   font-size: 1.15em;
-  padding: 0 10px;
-  filter: drop-shadow(0 0 2.5rem #4895ff);
+  padding-left: 20px;
 }
 
 .navbar-brand {
   width: 190px;
-  margin-left: 10px;
 }
