@@ -53,8 +53,6 @@ class Homepage extends Component {
             <source src={tecca} type="video/mp4" />
           </video>
         </div>
-
-        <div className='home-footer-wrapper' style={{ opacity: flickered ? 0.8 : 0 }} />
         <div className='socials-wrapper' style={{ opacity: flickered ? 1 : 0 }}>
           <p className='socials-title'>GLOWING EDITS AND ANIMATIONS</p>
           <div className='socials-row'>

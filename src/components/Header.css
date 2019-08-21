@@ -14,10 +14,6 @@
   padding: 0 10px;
 }
 
-.navbar-wrapper:hover {
-  background: #0C192A;
-}
-
 .navbar-list {  
   display: flex;
   flex-direction: row;

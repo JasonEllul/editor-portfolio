@@ -22,7 +22,7 @@ function App() {
         onAfterRender={() => { }}
         onFailure={() => { }}
       /> */}
-      <div className='page-wrapper' style={{ zIndex: 1, backgroundColor: 'green' }} />
+      <div className='page-wrapper' style={{ zIndex: 1, backgroundColor: 'white' }} />
     </div>
   );
 }
