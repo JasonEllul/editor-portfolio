@@ -10,18 +10,19 @@ function App() {
   return (
     <div className="App">
       <Homepage />
-        {/* <InstagramEmbed
-          url='https://instagr.am/p/BzZkd3BlDnM/'
-          maxWidth={320}
-          hideCaption={false}
-          containerTagName='div'
-          protocol=''
-          injectScript
-          onLoading={() => { }}
-          onSuccess={() => { }}
-          onAfterRender={() => { }}
-          onFailure={() => { }}
-        /> */}
+      {/* <InstagramEmbed
+        url='https://instagr.am/p/BzZkd3BlDnM/'
+        maxWidth={320}
+        hideCaption={false}
+        containerTagName='div'
+        protocol=''
+        injectScript
+        onLoading={() => { }}
+        onSuccess={() => { }}
+        onAfterRender={() => { }}
+        onFailure={() => { }}
+      /> */}
+      <div className='page-wrapper' style={{ zIndex: 1, backgroundColor: 'green' }} />
     </div>
   );
 }

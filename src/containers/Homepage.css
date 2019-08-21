@@ -1,17 +1,4 @@
-
-.title {
-  font-family: 'Graduate', cursive;
-  font-size: 6.5rem;
-  animation: neon2 1.5s ease-in-out infinite alternate;
-  transition: all 3.0s ease-in;
-}
-
-.page-wrapper {
-  /* display: flex;
-  min-height: 100vh;
-  position: relative; */
-}
-
+/* Animated logo */
 .logo {
   object-fit: cover;
   filter: drop-shadow(0 0 8rem #4895ff);
@@ -99,16 +86,6 @@
   filter: drop-shadow(0 0 2.5rem #4895ff);
 }
 
-.header-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 85px;
-  background: linear-gradient(#0C192A, transparent);
-  transition: all 1.5s ease-in;
-  z-index: 2;
-}
 
 .home-footer-wrapper {
   position: absolute;
@@ -125,122 +102,5 @@
 @media (min-width: 48em) {
   .socials-title {
     font-size: 1.92em;
-  }
-}
-  
-@keyframes flicker-in-1 {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0;
-  }
-  10.1% {
-    opacity: 1;
-  }
-  10.2% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  20.1% {
-    opacity: 1;
-  }
-  20.6% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  30.1% {
-    opacity: 1;
-  }
-  30.5% {
-    opacity: 1;
-  }
-  30.6% {
-    opacity: 0;
-  }
-  45% {
-    opacity: 0;
-  }
-  45.1% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  55% {
-    opacity: 1;
-  }
-  55.1% {
-    opacity: 0;
-  }
-  57% {
-    opacity: 0;
-  }
-  57.1% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  60.1% {
-    opacity: 0;
-  }
-  65% {
-    opacity: 0;
-  }
-  65.1% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  75.1% {
-    opacity: 0;
-  }
-  77% {
-    opacity: 0;
-  }
-  77.1% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 1;
-  }
-  85.1% {
-    opacity: 0;
-  }
-  86% {
-    opacity: 0;
-  }
-  86.1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes neon2 {
-  from {
-    text-shadow: 0 0 40px #4895ff, 0 0 70px #4895ff, 0 0 80px #4895ff, 0 0 100px #4895ff, 0 0 150px #4895ff;
-  }
-  to {
-    text-shadow: 0 0 20px #4895ff, 0 0 35px #4895ff, 0 0 40px #4895ff, 0 0 50px #4895ff, 0 0 75px #4895ff;
-  }
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(72, 149, 255, 0.4);
-  }
-  70% {
-      box-shadow: 0 0 0 100vw rgba(72, 149, 255, 0);
-  }
-  100% {
-      box-shadow: 0 0 0 0 rgba(72, 149, 255, 0);
   }
 }
