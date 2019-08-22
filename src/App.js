@@ -7,13 +7,14 @@ import './fonts/tex.css';
 
 import Homepage from './containers/Homepage';
 import Instapage from './containers/Instapage';
+import Contactpage from './containers/Contactpage';
 
 function App() {
   return (
     <div className="App">
       <Homepage />
-
       <Instapage />
+      <Contactpage />
     </div>
   );
 }

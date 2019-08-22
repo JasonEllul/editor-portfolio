@@ -23,9 +23,9 @@ class SocialsWidget extends Component {
 
   handleScroll(e) {
     // If offset is past homepage
-    if (!this.state.visible && (window.scrollY > window.innerHeight / 2)) {
+    if (!this.state.visible && (window.scrollY > window.innerHeight / 2 && window.scrollY < window.innerHeight * 2)) {
       this.setState({ visible: true });
-    } else if (this.state.visible && (window.scrollY <= window.innerHeight / 2)) {
+    } else if (this.state.visible && (window.scrollY <= window.innerHeight / 2 || window.scrollY >= window.innerHeight * 2)) {
       this.setState({ visible: false });
     }
   }

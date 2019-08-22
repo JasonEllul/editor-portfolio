@@ -1,0 +1,9 @@
+.contactpage-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  color: #000;
+  text-align: center;
+  background-color: #0C192A;
+}

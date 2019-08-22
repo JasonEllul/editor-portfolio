@@ -22,7 +22,7 @@ class Instapage extends Component {
 
   render() {
     return (
-      <div className='instapage-wrapper' style={{ backgroundColor: '#fafafa' }}>
+      <div className='instapage-wrapper'>
         <SocialsWidget />
         <div className='instapage-showcase-wrapper'>
           <div className='instapage-showcase'>
@@ -104,12 +104,6 @@ class Instapage extends Component {
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div className='instapage-row-text-wrapper'>
-          <p className='instapage-row-title'>Von Miller</p>
-          <p className='instapage-row-text'>Show transparent background picture of player under the instragram embed on the right. The rest of the screen looks like Profilepage on personal portfolio.</p>
         </div>
       </div>
     )

@@ -5,7 +5,7 @@
   overflow: hidden;
   color: #000;
   text-align: center;
-  
+  background-color: #fafafa;
 }
 
 .instapage-title {
@@ -21,11 +21,9 @@
 
 
 .instapage-showcase-wrapper {
-  /* display: inline; */
-  flex-direction: column;
   position: relative;
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 90px;
 }
 
 .instapage-showcase {
