@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: left 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: left 0.25s ease-out
 }
 
 .widget-divider {

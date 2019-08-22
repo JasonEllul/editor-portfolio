@@ -2,12 +2,9 @@
   position: relative;
   min-height: 100vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   overflow: hidden;
   color: #000;
+  text-align: center;
   
 }
 
@@ -16,22 +13,38 @@
   font-size: 1.92em;
   font-weight: 700;
   margin: 20px 10px;
+  text-align: left;
+  position: absolute;
+  left: 0;
+
 }
 
 
 .instapage-showcase-wrapper {
-  text-align: left;
-  overflow: hidden;
+  /* display: inline; */
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 .instapage-showcase {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  position: relative;
+  display: inline;
+  text-align: left;
+}
+
+.embed-container {
+  display: inline;
+  text-align: left;
+  position:relative;
+  top: 90px;
 }
 
 .embed-wrapper {
   margin: 10px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .instapage-row-text-wrapper {
