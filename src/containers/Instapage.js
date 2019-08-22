@@ -26,7 +26,10 @@ class Instapage extends Component {
         <SocialsWidget />
         <div className='instapage-showcase-wrapper'>
           <div className='instapage-showcase'>
-            <p className='instapage-title'>RECENT VIDEO EDITS</p>
+            <div className='instapage-title-wrapper'>
+              <p className='instapage-title'>RECENT VIDEO EDITS</p>
+              {/* <a className='instapage-button'>View More on Instagram</a> */}
+            </div>
             <div className='embed-container'>
               <div className='embed-wrapper'>
                 <InstagramEmbed
@@ -65,7 +68,9 @@ class Instapage extends Component {
         </div>
         <div className='instapage-showcase-wrapper'>
           <div className='instapage-showcase'>
-            <h1 className='instapage-title'>RECENT ANIMATIONS</h1>
+            <div className='instapage-title-wrapper'>
+              <h1 className='instapage-title'>RECENT ANIMATIONS</h1>
+            </div>
             <div className='embed-container'>
               <div className='embed-wrapper'>
                 <InstagramEmbed

@@ -8,15 +8,30 @@
   background-color: #fafafa;
 }
 
+.instapage-title-wrapper {
+  margin: 20px 10px;
+  position: absolute;
+  left: 0;
+}
+
 .instapage-title {
+  text-align: left;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 1.92em;
   font-weight: 700;
-  margin: 20px 10px;
-  text-align: left;
-  position: absolute;
-  left: 0;
+  display: inline;
+}
+.instapage-button {
+  display: inline;
+  font-weight: 600;
+  color: #3897f0;
+  font-size: 14px;
+  margin-left: 24px;
+  vertical-align: middle;
+}
 
+.instapage-button:hover {
+  text-decoration: underline;
 }
 
 
@@ -39,26 +54,9 @@
   top: 90px;
 }
 
+
 .embed-wrapper {
   margin: 10px;
   display: inline-block;
   vertical-align: top;
-}
-
-.instapage-row-text-wrapper {
-  max-width: 520px;
-  padding: 0 20px;
-}
-
-.instapage-row-title {
-  font-family: 'tex_bold', sans-serif;
-  font-size: 10vw;
-  white-space: nowrap;
-  line-height: 1;
-  transition: all 0.72s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.instapage-row-text {
-  font-family: 'inter', sans-serif;
-  font-weight: 400;
 }
